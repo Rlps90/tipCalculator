@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="looks.css">
+    <title>Gorjeto</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Gorjeto</h1>
+        <div id="calculator">
+
+            <form>
+                <div id="perguntaValor">Qual o valor da conta?</div>
+                $ <input id='valorConta' type='text' placeholder="Valor da Conta">
+
+                <div>
+                    Como foi o servico?
+                </div>
+                <select id="qualidadeServ">
+                <option disabled selected value="0">Escolha uma opção</option>
+                <option value="0.3">30&#37; &#45;Muito Bom</option>
+                <option value="0.2">20&#37; &#45;Bom</option>
+                <option value="0.15">15&#37; &#45;Ok</option>
+                <option value="0.1">10&#37; &#45;Ruim</option>
+                <option value="0.05">5&#37; &#45;Pessimo</option>
+            </select>
+            </form>
+
+            <div>
+                Quantas pessoas vao dividir a conta?
+            </div>
+            <input id="quantidadePess" type="text" placeholder="Quantidade de Pessoas"> pessoas
+            <button type="button" id="calcular">
+        Calcular
+    </button>
+
+        </div>
+        <div id="gorjetaTotal">
+            <sup>$</sup><span id="gorjeta">0.00</span>
+            <small id="cada">cada</small>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="logics.js"></script>
+</body>
+
+</html>

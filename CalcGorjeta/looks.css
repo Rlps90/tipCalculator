@@ -1,0 +1,131 @@
+body {
+    font-family: monospace;
+    background: rgb(167, 148, 44);
+    background: -webkit-linear-gradient(to left, rgb(167, 148, 44), #1F1C18);
+    background: linear-gradient(to left, rgb(167, 148, 44), #1F1C18);
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: rgb(11, 59, 11);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+h1 {
+    background: rgb(167, 148, 44);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 10px 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+#perguntaValor {
+    padding-left: 20px;
+    position: relative;
+    font-size: 20px;
+}
+
+form input[type="text"] {
+    width: 90px;
+}
+
+input {
+    padding-left: 20px;
+}
+
+#valorConta {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #aaaaaa;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#valorConta:focus {
+    background: #fff;
+    border: 3px solid #ffffff;
+    outline: none;
+}
+
+#quantidadePess {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #aaaaaa;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.dollarSign {
+    display: inline;
+}
+
+#qualidadeServ {
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #aaaaaa;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: #000000;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: whitesmoke;
+}
+
+button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#gorjetaTotal {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#gorjetaTotal:before {
+    content: "Valor da Gorjeta";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#gorjetaTotal sup {
+    font-size: 20px;
+    top: -18px;
+}
+
+#gorjetaTotal small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
